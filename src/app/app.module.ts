@@ -8,12 +8,14 @@ import { CustomMaterialModule } from './material.modules';
 import { HomePageComponent } from './home-page/home-page.component';
 import { RouterModule } from '@angular/router';
 import { AppComponents, routes } from "./app-routing.module";
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    AppComponents
+    AppComponents,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
